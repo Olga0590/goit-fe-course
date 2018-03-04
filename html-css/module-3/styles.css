@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.wrapper {
+	margin: auto;
+	width: 900px;
+	padding-top: 77px;
+	padding-bottom: 70px;
+	min-height: 100vh;
+	font-family: 'Playfair Display', serif;
+	color: #626262;     
+	font-size: 14px;
+}
+
+.items {
+	display: inline-block;
+	line-height: 24px;
+	margin-right: 50px;
+}
+
+.items:last-of-type {
+	margin-right: 0px;
+}
+
+.menu {
+	margin: auto;
+	width: 570px;
+	text-align: center;
+	margin-bottom: 103px;
+}
+
+.link {
+	color: #03a9f4;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	width: 70px;
+	color: #626262;
+}
+
+.menu a:hover {
+	color: #1f3adf;
+	text-decoration: underline;
+}
+
+.title {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+	margin-bottom: 36px;
+}
+
+.subtitle {
+	display: block;
+	color: #b4ad9e;
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 26px;
+}
+
+
+.section-1 {
+	display: inline-block;
+	width: 420px;
+	margin-right: 59px;
+	margin-bottom: 135px;
+	line-height: 24px;
+}
+
+.section-2 {
+	display: inline-block;
+	width: 420px;
+	margin-left: -4px;
+	margin-bottom: 135px;
+	line-height: 24px;
+
+}
+
+.section-5 {
+	display: inline-block;
+	width: 420px;
+	margin-right: 59px;
+	line-height: 24px;
+}
+.section-6 {
+	display: inline-block;
+	width: 420px;
+	margin-left: -4px;
+	line-height: 24px;
+}
+
+
+button {
+	display: block;
+ 	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	padding: 22px 34px 22px 34px;
+	border: 1px solid #626262; 
+	color: #626262;
+	font-size: 20px;
+	line-height: 24px;
+	background-color: #ffffff;
+	margin-top: 57px;
+	font-family: 'Playfair Display', serif;
+	}
