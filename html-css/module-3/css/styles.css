@@ -69,21 +69,6 @@ a {
 	margin-bottom: 26px;
 }
 
-button {
-	display: block;
- 	margin-right: auto;
-	margin-left: auto;
-	text-decoration: none;
-	padding: 22px 34px 22px 34px;
-	border: 1px solid #626262; 
-	color: #626262;
-	font-size: 20px;
-	line-height: 24px;
-	background-color: #ffffff;
-	margin-top: 57px;
-	font-family: 'Playfair Display', serif;
-
-}
 
 .section-1 {
 	display: inline-block;
@@ -114,3 +99,19 @@ button {
 	margin-left: -4px;
 	line-height: 24px;
 }
+
+
+button {
+	display: block;
+ 	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	padding: 22px 34px 22px 34px;
+	border: 1px solid #626262; 
+	color: #626262;
+	font-size: 20px;
+	line-height: 24px;
+	background-color: #ffffff;
+	margin-top: 57px;
+	font-family: 'Playfair Display', serif;
+	}
