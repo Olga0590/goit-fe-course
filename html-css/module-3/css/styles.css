@@ -10,7 +10,6 @@
 	width: 900px;
 	padding-top: 77px;
 	padding-bottom: 70px;
-	min-height: 100vh;
 	font-family: 'Playfair Display', serif;
 	color: #626262;     
 	font-size: 14px;
@@ -18,9 +17,7 @@
 
 .items {
 	display: inline-block;
-	line-height: 24px;
 	margin-right: 70px;
-	width: 90px;
 }
 
 .items:last-of-type {
@@ -29,7 +26,6 @@
 
 .menu {
 	margin: auto;
-	width: 600px;
 	text-align: center;
 	margin-bottom: 103px;
 }
@@ -65,12 +61,11 @@ a {
 	line-height: 17px;
 	text-transform: uppercase;
 	font-family: 'Ubuntu', sans-serif;
-	margin-top: 30px;
 	margin-bottom: 26px;
 }
 
 
-.section-1 {
+.article-1 {
 	display: inline-block;
 	width: 420px;
 	margin-right: 59px;
@@ -78,7 +73,7 @@ a {
 	line-height: 24px;
 }
 
-.section-2 {
+.article-2 {
 	display: inline-block;
 	width: 420px;
 	margin-left: -4px;
@@ -87,31 +82,52 @@ a {
 
 }
 
-.section-5 {
+.article-3 {
+	display: inline-block;
+	width: 420px;
+	margin-right: 59px;
+	margin-bottom: 135px;
+	line-height: 24px;
+}
+
+.article-4 {
+	display: inline-block;
+	width: 420px;
+	margin-left: -4px;
+	margin-bottom: 135px;
+	line-height: 24px;
+}
+
+.article-5 {
 	display: inline-block;
 	width: 420px;
 	margin-right: 59px;
 	line-height: 24px;
+	margin-bottom: 57px;
 }
-.section-6 {
+
+.article-6 {
 	display: inline-block;
 	width: 420px;
 	margin-left: -4px;
 	line-height: 24px;
+	margin-bottom: 57px;
 }
 
 
 button {
 	display: block;
- 	margin-right: auto;
-	margin-left: auto;
+ 	margin: auto;
 	text-decoration: none;
-	padding: 22px 34px 22px 34px;
 	border: 1px solid #626262; 
 	color: #626262;
 	font-size: 20px;
-	line-height: 24px;
 	background-color: #ffffff;
-	margin-top: 57px;
 	font-family: 'Playfair Display', serif;
+	width: 164px;
+	height: 60px;
 	}
+
+ img {
+ 	margin-bottom: 30px;
+ }
