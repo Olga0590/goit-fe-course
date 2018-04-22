@@ -244,6 +244,7 @@ h2 {
 	text-transform: uppercase;
 	margin-left: -4px;
 	cursor: pointer;
+	transition: background-color 200ms linear;
    
 }
 
@@ -253,4 +254,8 @@ h2 {
 }
 .picture-team {
 	transition: all 200ms linear;
+}
+
+.form input:last-child:hover {
+	background-color: #63ceba;
 }
