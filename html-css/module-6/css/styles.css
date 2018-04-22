@@ -240,9 +240,10 @@ h2 {
 	font-weight: 300;
 	font-style: italic;
 	font-size: 15px;
-	color: #cccccc;
+	color: #333333;
 	padding: 10px;
 }
+
 .form input:last-child {
 	width: 150px;
 	height: 40px;
@@ -266,4 +267,7 @@ h2 {
 
 .form input:last-child:hover {
 	background-color: #63ceba;
+}
+.form input::placeholder {
+	color: #cccccc;
 }
