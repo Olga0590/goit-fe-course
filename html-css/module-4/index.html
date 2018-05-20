@@ -5,62 +5,77 @@
 	<title>CSS-Module-4</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 	<div class="wrapper">
-		<div class="menu-section">
+		<div class="menu-section clearfix">
 			<a class="logo" href="#">Mart</a>
-			<nav class="navigation clearfix">
-				<a href="#">Home</a>
-				<a href="#">About us</a>
-				<a href="#">Page</a>
-				<a href="#">Shop</a>
-				<a href="#">Blog</a>
-				<a href="#">Contact us</a>
+			<nav class="navigation">
+				<ul class="navigation-list clearfix">
+					<li class="navigation-list-item">
+						<a href="#">Home</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#">About us</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#">Page</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#">Shop</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#">Blog</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#">Contact us</a>
+					</li>
+				</ul>
 			</nav>		
 		</div>
-	<div class="gallery clearfix">
+	<section class="gallery clearfix">
 		<h2 class="gallery-title">Featured product</h2>
 		<ul class="featured">
 			<li class="featured-item">
 				<img src="./img/product1.png" alt="sandals" width="255" height="284">
 				<div class="gallery-featured-item clearfix">
 					<a href="#">Blue tshirt</a>
-					<span>$26</span>
+					<span class="price">$26</span>
 				</div>
 			</li>
 			<li class="featured-item">
 				<img src="./img/product2.png" alt="red belt" width="255" height="284">
 				<div class="gallery-featured-item clearfix">
 					<a href="#">Woman shirt</a>
-					<span>$31</span>
+					<span class="price">$31</span>
 				</div>
 			</li>
 			<li class="featured-item">
 				<img src="./img/product3.png" alt="hat" width="255" height="284">
 				<div class="gallery-featured-item clearfix">
 					<a href="#">Yellow tshirt</a>
-					<span>$21</span>
+					<span class="price">$21</span>
 				</div>
 			</li>
 			<li class="featured-item">
 				<img src="./img/product4.png" alt="small bag" width="255" height="284">
 				<div class="gallery-featured-item clearfix">
 					<a href="#">Cool lingerie</a>
-					<span>$56</span>
+					<span class="price">$56</span>
 				</div>
 			</li>
 			<li class="featured-item">
 				<img src="./img/product5.png" alt="black bag" width="255" height="284">
 				<div class="gallery-featured-item clearfix">
 					<a href="#">Blue tshirt</a>
-					<span>$26</span>
+					<span class="price">$26</span>
 				</div>
 			</li>
 			<li class="featured-item">
 				<img src="./img/product6.png" alt="black  belt" width="255" height="284">
-				<div class="gallery-featured-item link clearfix">
+				<div class="gallery-featured-item clearfix">
 					<a href="#">Woman shirt</a>
 					<span class="price">$31</span>
 				</div>
@@ -69,38 +84,38 @@
 				<img src="./img/product7.png" alt="men's shoes" width="255" height="284">
 				<div class="gallery-featured-item clearfix">
 					<a href="#">Yellow tshirt</a>
-					<span>$21</span>
+					<span class="price">$21</span>
 				</div>
 			</li>
 		    <li class="featured-item">
 				<img src="./img/product8.png" alt="glasses" width="255" height="284">
 				<div class="gallery-featured-item clearfix">
 					<a href="#">Cool lingerie</a>
-					<span>$56</span>
+					<span class="price">$56</span>
 				</div>
 		    </li> 
 		</ul>
-	</div>
-	<div class="Blog clearfix">
+	</section>
+	<section class="Blog clearfix">
 		<h2 class="Blog-title">Latest news</h2>
 		<ul class="section-title">
 			<li class="news"><img src="./img/Rectangle_34.png" alt="maps" width="350" height="261">
-				<p class="desc">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
+				<h4 class="desc">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h4>
 				<p class="excerpt">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare</p>
 				<a href="#">Read More</a>
 			</li>
 			<li class="news"><img src="./img/Rectangle_35.png" alt="library" width="350" height="261">
-				<p class="desc">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
+				<h4 class="desc">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h4>
 				<p class="excerpt">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare</p>
 				<a href="#">Read More</a>
 			</li>
 			<li class="news"><img src="./img/product-img-5.png" alt="bus" width="350" height="261">
-				<p class="desc">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
+				<h4 class="desc">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h4>
 				<p class="excerpt">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare</p>
 				<a href="#">Read More</a>
 			</li>
 		</ul>
-	</div>
+	</section>
 </div>
 	
 </body>
