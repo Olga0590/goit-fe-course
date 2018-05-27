@@ -117,11 +117,7 @@
     padding-top: 27px;
    }
 
-.news {
-	float: left;
-}
-
-.news a {
+.article-section-blog a {
 	border: 1px solid #4ec6ab;
 	background-color: #4ec6ab;
 	width: 160px;
