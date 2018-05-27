@@ -14,11 +14,17 @@
   clear: both;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 /*HEADER*/
 
 .header {
     width: 1110px;
-    height: 90px;
+    /*height: 90px;*/
     margin: auto;
 }
 
@@ -41,10 +47,6 @@
 nav {
 	float: right;
 	line-height: 90px;
-}
-
-ul {
-	list-style: none;
 }
 
 .navigation-item {
@@ -81,6 +83,7 @@ nav a:hover {
 	line-height: 82px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
+	margin: 0;
 }
 
 .slider {
@@ -179,17 +182,16 @@ button {
 }
 
 .card-icons {
-	display: inline-block;
-	height: 260px;
+	/*display: none;
+*/	height: 260px;
 	width: 230px;
 	background: rgba(50, 50, 50, 0.5);
 	position: absolute;
 	top: 12px;
 	left: 12px;
 	z-index: 3;
-	padding-top: 75px;
-	padding-bottom: 75px;
-	opacity: 0;
+	padding: 75px 30px;
+	/*opacity: 0;*/
 
 }
 .icons-button {
@@ -198,15 +200,15 @@ button {
 	color: #ffffff;
 	background-color: transparent;
 	border: 1px solid #ffffff;
-	margin-right: 5px;
-	margin-bottom: 5px;
+	/*margin-right: 5px;
+	margin-bottom: 5px;*/
 	justify-content: center;
 }
 
-.icons-button:nth-child(3) {
+.icons-button-wrapper:nth-child(3) {
    margin-right: 0px;
 }
-.icons-button:nth-child(4) {
+.icons-button-wrapper:nth-child(4) .icons-button {
 	width: 168px;
 	background-color: #323232;
 	margin-right: 0px;
@@ -223,17 +225,21 @@ button {
 }
 
 .icons-button-wrapper {
-	width: 168px;
-	margin: auto;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px;
 }
-
+.list-card > img {
+	display: inline-block;
+	margin-bottom: -4px;
+}
 .icons-button img {
 	display: inline-block;
 	vertical-align: middle;
 }
 
 .list-card:hover .card-icons {
-	opacity: 1;
+	display: block;
 }
 
 .list-card:hover .gallery-featured-item {
@@ -270,11 +276,7 @@ background-color: #1abc9c;
 }
 
 .gallery-featured-item {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	z-index: 1;
-	display: inline-block;
+	display: block;
 	width: 255px;
 	height: 42px;
 	color: #ffffff;
@@ -285,7 +287,7 @@ background-color: #1abc9c;
 /*FOOTER */
 
 .footer {
-    height: 90px;
+    min-height: 90px;
     padding-top: 36px;
     padding-bottom: 36px;
     background-color: #323232;
@@ -297,15 +299,28 @@ background-color: #1abc9c;
     font-weight: 300;
 }
 
-.copiright {
-	display: inline-block;
+.footer-list-item:nth-child(3) {
 	border-right: 1px solid #fefefe;
 	padding-right: 5px;
+
 }
-.design {
- 	display: inline-block;
+.footer-list-item {
+	display: inline-block;
+	
 }
-.design  a {
+.footer-list-item a {
 	text-decoration: none;
 	color: #46bfa9;
+}
+.far {
+	font-size: 30px;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: 300;
+}
+.fas {
+	font-size: 30px;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: 300;
 }
