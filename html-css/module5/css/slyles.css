@@ -1,17 +1,10 @@
 * {
 	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
-}
-.wrapper {
-	width: 1600px;
-	margin: auto;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+.wrapper {
+	width: 1600px;
+	margin: 0 auto;
 }
 
 ul {
@@ -24,8 +17,7 @@ ul {
 
 .header {
     width: 1110px;
-    /*height: 90px;*/
-    margin: auto;
+    margin: 0 auto;
 }
 
 .logo {
@@ -142,7 +134,7 @@ button {
 
 .card-collection {
 	width: 1110px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 .new-collection {
@@ -153,7 +145,7 @@ button {
 
 .title-section {
 	text-align: center;
-   	margin: auto;
+   	margin: 0 auto;
    	font-size: 48px;
 	font-weight: 900;
 	font-family: 'Roboto', sans-serif;
@@ -178,7 +170,7 @@ button {
 }
 
 .list-card:last-child {
-	margin-right: 0px;
+	margin-right: 0;
 }
 
 .card-icons {
@@ -200,8 +192,6 @@ button {
 	color: #ffffff;
 	background-color: transparent;
 	border: 1px solid #ffffff;
-	/*margin-right: 5px;
-	margin-bottom: 5px;*/
 	justify-content: center;
 }
 
@@ -211,8 +201,8 @@ button {
 .icons-button-wrapper:nth-child(4) .icons-button {
 	width: 168px;
 	background-color: #323232;
-	margin-right: 0px;
-	margin-bottom: 0px;
+	margin: 0;
+	/*margin-bottom: 0;*/
 
 }
 .icons-button span {
@@ -323,4 +313,9 @@ background-color: #1abc9c;
 	line-height: 30px;
 	color: #ffffff;
 	font-weight: 300;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
