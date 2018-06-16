@@ -88,6 +88,7 @@ nav a:hover {
 	line-height: 54px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	margin: 0;
 }
 .button:hover {
 	background-color: #1abc9c;
@@ -174,8 +175,8 @@ button {
 }
 
 .card-icons {
-	/*display: none;
-*/	height: 260px;
+	display: none;
+	height: 260px;
 	width: 230px;
 	background: rgba(50, 50, 50, 0.5);
 	position: absolute;
@@ -302,17 +303,8 @@ background-color: #1abc9c;
 	text-decoration: none;
 	color: #46bfa9;
 }
-.far {
-	font-size: 30px;
-	line-height: 30px;
-	color: #ffffff;
-	font-weight: 300;
-}
-.fas {
-	font-size: 30px;
-	line-height: 30px;
-	color: #ffffff;
-	font-weight: 300;
+button:focus {
+	outline: 0;	
 }
 .clearfix::after {
   content: "";
