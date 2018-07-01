@@ -176,7 +176,7 @@ button {
 }
 
 .card-icons {
-	/*display: none;*/
+	display: none;
 	height: 260px;
 	width: 230px;
 	background: rgba(50, 50, 50, 0.5);
@@ -222,11 +222,6 @@ button {
 	display: inline-block;
 	margin-bottom: -4px;
 }
-.icons-button img {
-	display: inline-block;
-	vertical-align: middle;
-}
-
 .list-card:hover .card-icons {
 	display: block;
 }
@@ -255,7 +250,6 @@ background-color: #1abc9c;
 .price {
 	float: right;
 	background: #8c8c8c;
-	vertical-align: baseline;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
@@ -265,7 +259,6 @@ background-color: #1abc9c;
 }
 
 .gallery-featured-item {
-	display: block;
 	width: 255px;
 	height: 42px;
 	color: #ffffff;
