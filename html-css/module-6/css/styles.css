@@ -1,7 +1,5 @@
 * {
 	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
 }
 .wrapper {
 	width: 1200px;
@@ -13,6 +11,8 @@
 }
 ul {
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 a {
 	text-decoration: none;
@@ -96,7 +96,7 @@ h2 {
 	color: #333333;
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 60px;
+	margin: 0 auto 60px;
 }
 .title::after {
 	border-bottom: 3px solid #f38181;
@@ -113,12 +113,14 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: #333333;
 	font-weight: 500;
+	margin: 0 0 15px 0;
 }
 .article-text p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	line-height: 24px;
 	color: #999999;
+	margin: 0;
 }
 .article-list {
 	display: flex;
@@ -191,22 +193,26 @@ h2 {
 	margin-bottom: 80px;
 }
 
-.figcaption p:first-child {
+.figcaption h3 {
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 15px;
 	color: #333333;
 	font-family: 'Montserrat', sans-serif;
-	margin-bottom: 10px;
+	text-align: center;
+	font-weight: 300;
+	margin: 0 0 10px 0;
 }
-.figcaption p:last-child {
+.figcaption p {
 	color: #999999;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-style: italic;
 	font-size: 15px;
-}
-.figcaption p {
 	text-align: center;
+	margin: 0;
+}
+.figure {
+	margin: 0;
 }
 
 /*FOOTER*/
@@ -219,17 +225,18 @@ h2 {
 	padding-top: 10px;
 }
 
-.footer-list {
-	display: flex;
+.footer-list p {
+	display: inline-block;
+	margin: 0;
 }
 
-.footer-list li {
+.footer-list {
 	font-family: 'Montserrat', sans-serif;
-	margin-right: 5px;
+	/*margin-right: 5px;*/
 	color: #333333;
 	font-size: 14px;
 }
-.footer-list a {
+.footer a {
 	color: #f38181;
 }
 .form input:first-child {
@@ -271,3 +278,5 @@ h2 {
 .form input::placeholder {
 	color: #cccccc;
 }
+
+

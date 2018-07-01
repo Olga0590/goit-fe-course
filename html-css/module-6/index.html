@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Module-6</title>
+	<link rel="stylesheet" href="./css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -88,6 +89,7 @@
 				<p class="inform-our-team">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				<ul class="team-list">
 					<li class="picture-team-list">
+						<figure class="figure">
 						<div class="picture-team">
 							<img class="foto" src="./img/card_1.png" alt="the first member of the team" width="380" height="470">
 							<ul class="icons-list">
@@ -113,12 +115,14 @@
 								</li>								
 							</ul>
 						</div>
-							<div class="figcaption">
-								<p>Matthew Dix</p>
+							<figcaption class="figcaption">
+								<h3>Matthew Dix</h3>
 								<p>Graphic Design</p>
-							</div>					
+							</figcaption>
+						</figure>					
 					</li>
 					<li class="picture-team-list">
+						<figure class="figure">
 						<div class="picture-team">
 							<img class="foto" src="./img/card_2.png" alt="the second member of the team" width="380" height="470">
 							<ul class="icons-list">
@@ -144,13 +148,14 @@
 								</li>
 							</ul>
 		                 </div>
-		                    <div class="figcaption">
-								<p>Christopher Campbell</p>
+		                    <figcaption class="figcaption">
+								<h3>Christopher Campbell</h3>
 								<p>Branding/UX design</p>
-							</div>
-								
+							</figcaption>
+						</figure>		
 					</li>
 					<li class="picture-team-list">
+						<figure class="figure">
 						<div class="picture-team">
 							<img class="foto" src="./img/card_3.png" alt="the third member of the team" width="380" height="470">
 							<ul class="icons-list">
@@ -176,25 +181,20 @@
 								</li>
 							</ul>
 						</div>
-						    <div class="figcaption">
-								<p>Michael Fertig</p>
-								<p>Developer</p>
-							</div>	
+						<figcaption class="figcaption">
+							<h3>Michael Fertig</h3>
+							<p>Developer</p>
+						</figcaption>
+						</figure>
 					</li>
 				</ul>
 			</section>
 		</main>
 		<footer class="footer">
-			<ul class="footer-list">
-				<li>&copy;</li>
-				<li>2016</li>
-				<li>MoGo</li>
-				<li>free</li>
-				<li>PSD</li>
-				<li>template</li>
-				<li>by</li>
-				<li><a href="#">Laaqiq</a></li>
-			</ul>
+			<div class="footer-list">
+			<p>&copy; 2016 MoGo free PSD template by</p>
+			<a href="#">Laaqiq</a>
+			</div>
 			<form class="form" action="#">
 				<input type="email" placeholder="Your Email...">
 				<input type="submit" value="Subscribe">
