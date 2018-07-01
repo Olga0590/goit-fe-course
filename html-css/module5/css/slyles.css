@@ -168,6 +168,7 @@ button {
 	float: left;
 	margin-right: 30px;
 	position: relative;
+	vertical-align: middle;
 }
 
 .list-card:last-child {
@@ -175,7 +176,7 @@ button {
 }
 
 .card-icons {
-	display: none;
+	/*display: none;*/
 	height: 260px;
 	width: 230px;
 	background: rgba(50, 50, 50, 0.5);
@@ -184,7 +185,6 @@ button {
 	left: 12px;
 	z-index: 3;
 	padding: 75px 30px;
-	/*opacity: 0;*/
 
 }
 .icons-button {
@@ -193,7 +193,6 @@ button {
 	color: #ffffff;
 	background-color: transparent;
 	border: 1px solid #ffffff;
-	justify-content: center;
 }
 
 .icons-button-wrapper:nth-child(3) {
@@ -202,23 +201,22 @@ button {
 .icons-button-wrapper:nth-child(4) .icons-button {
 	width: 168px;
 	background-color: #323232;
-	margin: 0;
-	/*margin-bottom: 0;*/
-
 }
 .icons-button span {
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    vertical-align: middle;
     display: inline-block;
     margin-left: 12px;
+    vertical-align: 50%;
 }
 
 .icons-button-wrapper {
 	display: inline-block;
-	margin-right: 5px;
-	margin-bottom: 5px;
+	margin: 0 5px 5px 0;
+}
+.icons-button-wrapper:last-child {
+	margin: 0;
 }
 .list-card > img {
 	display: inline-block;
@@ -278,7 +276,6 @@ background-color: #1abc9c;
 /*FOOTER */
 
 .footer {
-    min-height: 90px;
     padding-top: 36px;
     padding-bottom: 36px;
     background-color: #323232;
@@ -290,16 +287,12 @@ background-color: #1abc9c;
     font-weight: 300;
 }
 
-.footer-list-item:nth-child(3) {
-	border-right: 1px solid #fefefe;
-	padding-right: 5px;
-
-}
 .footer-list-item {
 	display: inline-block;
+	margin: 0;
 	
 }
-.footer-list-item a {
+.footer a {
 	text-decoration: none;
 	color: #46bfa9;
 }
@@ -310,4 +303,12 @@ button:focus {
   content: "";
   display: table;
   clear: both;
+}
+.pe {
+	font-size: 100px;
+	color: #ffffff;
+}
+.icons {
+	font-size: 30px;
+	line-height: 1.5;
 }
