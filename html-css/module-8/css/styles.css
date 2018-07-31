@@ -1,16 +1,21 @@
 * {
 	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
+/*	margin: 0px;
+	padding: 0px;*/
 }
 .wrapper {
 	width: 320px; 
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
+	margin: 0 auto;
+
 }
 ul {
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
+
 img {
 	height: auto;
 	max-width: 100%;
@@ -54,14 +59,15 @@ button {
 	.main-section-title {
 		text-transform: uppercase;
 	/*	margin-bottom: 10px;*/
+	margin: 0 auto;
 		font-size: 30px;
 		/*width: 280px;*/
 	}
 .subtitle {
 	display: block;
 	width: 220px;
-    margin-bottom: 20px;
-    margin: 20px auto;
+    /*margin-bottom: 20px;*/
+    margin: 0 auto 20px auto;
 }
 .sing-up {
 	display: flex;
@@ -83,8 +89,8 @@ width: 90px;
 	color: #ffffff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-/*	line-height: 35px;
-	padding: 10px 15px;*/
+	line-height: 35px;
+	/*padding: 10px 15px;*/
 /*	border: 2px solid rgba(255, 255, 255, 0);*/
 	/*border-radius: 20px;*/
 	/*background-color: transparent;*/
@@ -132,11 +138,12 @@ width: 90px;
 .card-section-title,
 .card-title {
 	color: #333333;
-	margin-bottom: 15px;
+	margin: 0 0 15px 0;
 }
 .card-text {
 	color: #666666;
 	font-size: 14px;
+	margin: 0;
 }
 .card-section-title {
 	font-size: 22px;
@@ -179,9 +186,7 @@ input[type='radio'].visually-hidden {
 	background-position: center;
 
 }
-.card-list-item:last-child {
-	margin-bottom: 0;
-}
+
 .card-list {
 	margin-bottom: 30px;
 }
@@ -209,7 +214,7 @@ background-image: url(../img/icon-1.png);
 width: 45px;
 height: 45px;
 }
-@media (min-width: 768px) and (max-width: 1439px) {
+@media (min-width: 768px) {
 	.background {
 	background-image: url(../img/background-2.png);
 	background-color: #000000;
@@ -250,31 +255,53 @@ height: 45px;
 	}
 	.card-section {
 		width: 478px;
-		margin: auto;
+		margin: 0 auto;
 	}
-	.card-list-item:nth-child(2) {
-		order: 3;
-	}
-	.card-list-item:nth-child(4) {
-		order:4;
-	}
+
 	.card-section-title {
 		margin-bottom: 30px;
 	}
-.card-list-item:nth-child(even) {
-	margin-bottom: 0px;
+.main-section {
+	width: 520px;
+	margin: 0 auto;
 }
 }
-/*@media (min-width: 1440px) {
+@media (min-width: 1440px) {
 	.wrapper {
 	width: 1440px; 
+	margin: 0 auto;
+
 }
 .background {
 	background-image: url(../img/background-3.png);
 	background-color: #000000;
 	min-height: 700px;
-	padding: 38px;
+	padding: 38px 250px;
+
 		}
+	.card-section {
+		width: 940px;
+	}
+.card-list-item {
+	margin-bottom: 0px;
+}
+/*.main-section {
+	width: 520px;
+	margin: 0 auto;
+}*/
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.card-list-item:last-child {
+	margin-bottom: 0;
+}
 }
 	
-*/
+@media (min-width: 768px) and (max-width: 1439px) {
+
+.card-list-item:nth-last-child(-n+2) {
+margin-bottom: 0px;
+}
+
+}
+
