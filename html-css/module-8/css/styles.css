@@ -271,14 +271,14 @@ height: 45px;
 .card-list-item {
 	margin-bottom: 0px;
 }
-
+}
 @media (min-width: 320px) and (max-width: 767px) {
 	.card-list-item:last-child {
 	margin-bottom: 0;
 }
 }
 	
-@media (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
 
 .card-list-item:nth-last-child(-n+2) {
 margin-bottom: 0px;
