@@ -52,7 +52,7 @@ button {
 
 	.main-section-title {
 		text-transform: uppercase;
-	margin: 0 auto;
+	margin: 0 auto 10px auto;
 		font-size: 30px;
 		/*width: 280px;*/
 	}
@@ -210,6 +210,9 @@ height: 45px;
 	.wrapper {
 	width: 768px; 
 }
+.main-section-title {
+margin: 0 auto 20px auto;
+}
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -276,6 +279,7 @@ height: 45px;
 	.card-list-item:last-child {
 	margin-bottom: 0;
 }
+
 }
 	
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -289,3 +293,9 @@ margin-bottom: 0px;
 	outline: 0;
 }
 
+.card-list-item:nth-child(2) {
+		order: 3;
+	}
+	.card-list-item:nth-child(4) {
+		order:4;
+			}
