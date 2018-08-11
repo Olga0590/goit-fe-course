@@ -220,7 +220,6 @@ color: #ffffff;
 	background-position-y: 50%;
 }
 .header {
-	padding: 20px 0 0 0;
 	margin-bottom: 40px;
 }
 .subtitle {
@@ -228,13 +227,13 @@ color: #ffffff;
 }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
 		.background {
 	background-image: url(../img/background-2.png);
 	height: 700px;
 }
 	.container {
-	max-width: 720px; 
+	max-width: 768px; 
 }
 .main-section-title {
 margin: 0 auto 20px auto;
