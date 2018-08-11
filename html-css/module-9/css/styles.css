@@ -227,7 +227,7 @@ color: #ffffff;
 }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
 		.background {
 	background-image: url(../img/background-2.png);
 	height: 700px;
