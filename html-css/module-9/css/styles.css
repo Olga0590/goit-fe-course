@@ -266,7 +266,7 @@ margin: 0 auto 20px auto;
 	margin-bottom: 0px;
 }
 }
-@media screen and (min-width: 719px) and (max-width: 939px) {
+@media screen and (min-width: 767px) and (max-width: 939px) {
 
 .card-list-item:nth-child(odd) {
 margin-bottom: 30px;
