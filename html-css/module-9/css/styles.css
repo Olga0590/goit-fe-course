@@ -8,24 +8,24 @@
 	font-weight: 700;
 
 }
-[class*='col-'] {
-  padding: 0;
+body {
+	line-height: 1.2;
 }
-
 .subtitle-main-section {
-    margin: 0 auto 20px auto;
+    margin: 0 auto 35px auto;
+    font-size: 24px;
+    line-height: 1.2;
 } 
-.subtitle {
-	margin: 0 auto 24px auto;
-}
+
 ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
-.header {
-	padding: 20px 0 0 0;
+.card-list {
+	margin-bottom: 30px;
 }
+
 img {
 	height: auto;
 	max-width: 100%;
@@ -36,6 +36,10 @@ a {
 	text-decoration: none;
 }
 
+.wrapper-card-text {
+	font-size: 14px;
+	line-height: 1.2;
+}
 .header span {
 	font-size: 20px;
 }
@@ -123,7 +127,7 @@ input[type='radio'].visually-hidden {
 	padding: 0;
 }
 .card-section {
-	padding: 60px 15px;
+	padding: 60px 0;
 	/*text-align: center;*/
 }
 .main-section {
@@ -133,6 +137,10 @@ input[type='radio'].visually-hidden {
 		text-transform: uppercase;
 	margin: 0 auto 10px auto;
 		font-size: 30px;
+		line-height: 1.2;
+	}
+	.sing-up {
+		font-size: 14px;
 	}
 
 .sing-up-button {
@@ -154,6 +162,10 @@ input[type='radio'].visually-hidden {
 .sing-up-list:hover {
 	border-color: rgba(255, 255, 255, 1);
 }
+.section-padding {
+padding: 38px 0;
+}
+
 .card-section-title {
 		margin-bottom: 30px;
 	}
@@ -184,6 +196,37 @@ background-image: url(../img/icon-1.png);
 width: 45px;
 height: 45px;
 }
+.card-section-button:hover {
+color: #ffffff;
+	background-color: #ff4e50;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.card-list-item:last-child {
+	margin-bottom: 0;
+}
+[class*='col-'] {
+  padding: 0;
+}
+.subtitle-main-section {
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0 auto 20px auto;
+} 
+
+.background {
+	background-position-x: left;
+	background-position-y: 50%;
+}
+.header {
+	padding: 20px 0 0 0;
+	margin-bottom: 40px;
+}
+.subtitle {
+	margin: 0 auto 24px auto;
+}
+}
+
 @media (min-width: 768px) {
 		.background {
 	background-image: url(../img/background-2.png);
@@ -191,9 +234,37 @@ height: 45px;
 }
 	.container {
 	max-width: 768px; 
-	padding: 38px 0;
 }
 .main-section-title {
 margin: 0 auto 20px auto;
 } 
+.sing-up {
+	margin: 0;
 }
+.header {
+	margin-bottom: 160px;
+
+}
+.main-section-title {
+	font-size: 52px;
+}
+}
+@media (min-width: 940px) {
+	.container {
+	max-width: 940px; 
+	margin: 0 auto;
+	/*padding: 38px 250px;*/
+
+}
+.background {
+	background-size: cover;
+	background-image: url(../img/background-3.png);
+}
+/*	.card-section {
+		width: 940px;
+	}*/s
+.card-list-item {
+	margin-bottom: 0px;
+}
+}
+
