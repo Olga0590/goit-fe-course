@@ -53,8 +53,9 @@ a {
 .header {
 	display: flex;
 	align-items: flex-end;
-	margin-bottom: 100px;
+	margin-bottom: 160px;
 	justify-content: space-between;
+	padding-top: 30px;
 }
 .section-main-title {
 	text-align: center;
@@ -66,6 +67,13 @@ a {
 	/*font-family: 'Montserrat', sans-serif;
 	color: #ffffff;*/
 	font-weight: 700;
+}
+.navigation-icon--color {
+	color: #ffffff;
+}
+.navigation-icon--hover {
+	color: #fce38a;
+	border-bottom: 4px solid #fce38a;
 }
 
 .navigation-list {
