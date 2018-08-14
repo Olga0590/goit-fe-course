@@ -259,9 +259,15 @@ h2 {
 	opacity: 1;
 	box-shadow: 10px 10px 0 #95e1d3;
 }
+.icons-list-svg--hover:hover {
+fill: #ffffff;
+}
+.icons-list-svg--color {
+	fill: #f38181;
+}
 
 .icons-button:hover {
-	background-color: #95e1d3;
+	background-color: #f38181;
 }
 .title-our-team {
 	margin-bottom: 80px;
