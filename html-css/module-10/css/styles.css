@@ -69,10 +69,10 @@ a {
 	font-weight: 700;
 }
 .navigation-icon--color {
-	color: #ffffff;
+	fill: #ffffff;
 }
-.navigation-icon--hover {
-	color: #fce38a;
+.navigation-icon--hover:hover {
+	fill: #fce38a;
 	border-bottom: 4px solid #fce38a;
 }
 
