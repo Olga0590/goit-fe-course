@@ -259,7 +259,7 @@ h2 {
 	opacity: 1;
 	box-shadow: 10px 10px 0 #95e1d3;
 }
-.icons-list-svg--hover:hover {
+.icons-button:hover .icons-list-svg--hover {
 fill: #ffffff;
 }
 .icons-list-svg--color {
@@ -272,7 +272,9 @@ fill: #ffffff;
 .title-our-team {
 	margin-bottom: 80px;
 }
-
+.icons-list-svg--transition {
+	transition: all 200ms linear;
+}
 .figcaption h3 {
 	/*text-transform: uppercase;*/
 	font-size: 15px;
