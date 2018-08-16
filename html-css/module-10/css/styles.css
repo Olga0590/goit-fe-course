@@ -65,6 +65,9 @@
 	border-bottom: 4px solid #fce38a;
 	transition: all 200ms linear;
 }
+.nav__item:hover .icons-list-svg {
+	color: #fce38a;
+}
 .text-uppercase {
 text-transform: uppercase;
 }
