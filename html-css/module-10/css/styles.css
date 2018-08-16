@@ -44,7 +44,6 @@
 }
 .nav__icon--hover:hover {
 	fill: #fce38a;
-	border-bottom: 4px solid #fce38a;
 }
 
 .nav__list {
@@ -316,7 +315,9 @@ fill: #ffffff;
 .form__input::placeholder {
 	color: #cccccc;
 }
-
+.focus:focus {
+	outline: 0;
+}
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .background {
     background-image: linear-gradient(to bottom, rgba(232,130,131,0.9) 30%, rgba(254,209,54,0.8)), url(../img/background@2x.png);
