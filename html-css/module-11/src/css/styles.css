@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box; }
+
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  background-position: center;
+  background-image: linear-gradient(to bottom, rgba(232, 130, 131, 0.9) 30%, rgba(254, 209, 54, 0.8)), url(../img/background.png); }
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 160px;
+  justify-content: space-between;
+  padding-top: 30px; }
+
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif; }
+  .logo--white {
+    color: #ffffff; }
+  .logo--lg {
+    font-weight: 700; }
+
+.nav__link, .section-main-title__link, .footer_link--red {
+  text-decoration: none; }
+
+.list-style {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap; }
+
+.nav__item {
+  margin-right: 55px; }
+  .nav__item:last-child {
+    margin-right: 0px; }
+  .nav__item:hover .nav__link {
+    color: #fce38a;
+    border-bottom: 4px solid #fce38a;
+    transition: all 200ms linear; }
+
+.nav__link {
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+  transition: all 200ms linear; }
+  .nav__link:hover .nav__icon--color {
+    fill: #fce38a; }
+  .nav__link--white {
+    color: #ffffff; }
+
+.section-decoration-text {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif; }
+
+.section-main-title {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center; }
+
+.section-main-title__sub {
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 40px;
+  display: block; }
+  .section-main-title__sub--big {
+    font-size: 72px; }
+
+.section-main-title__text {
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  line-height: 140px; }
+  .section-main-title__text--wide {
+    font-weight: 700; }
+  .section-main-title__text--huge {
+    font-size: 150px; }
+
+.section-main-title__link {
+  padding: 12px 30px;
+  border: 3px solid #ffffff;
+  text-transform: uppercase; }
+  .section-main-title__link--wide {
+    font-weight: 700; }
+  .section-main-title__link--white {
+    color: #ffffff; }
+
+.main {
+  border-bottom: 1px solid #cccccc;
+  flex-grow: 1; }
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 60px; }
+  .title::after {
+    border-bottom: 3px solid #f38181;
+    content: '';
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 33px; }
+
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.services__article {
+  display: flex;
+  flex-basis: 330px; }
+  .services__article:not(:nth-last-child(-n+3)) {
+    margin-bottom: 95px; }
+
+.services-indents {
+  margin-bottom: 90px;
+  padding-top: 50px; }
+
+.services__img {
+  margin-right: 25px; }
+
+.services__subtitle {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+  font-size: 14px; }
+  .services__subtitle--color {
+    color: #333333; }
+
+.services__desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0 auto; }
+  .services__desc--color {
+    color: #999999; }
+
+.subtitle {
+  font-family: "Kaushan Script", cursive;
+  color: #333333;
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.our-team__text {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 90px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 24px; }
+  .our-team__text--color {
+    color: #999999; }
+
+.our-team__list {
+  display: flex;
+  justify-content: space-between; }
+
+.our-team__figure {
+  margin: 0; }
+
+.our-team_img {
+  margin-bottom: 25px; }
+
+.icons-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 380px;
+  height: 470px;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  background: linear-gradient(to bottom, rgba(240, 144, 140, 0.9), rgba(252, 227, 138, 0.8));
+  opacity: 0;
+  transition: all 200ms linear; }
+  .icons-list:hover {
+    opacity: 1;
+    box-shadow: 10px 10px 0 #95e1d3; }
+
+.our-team {
+  margin-bottom: 80px; }
+
+.our-team__item {
+  position: relative; }
+
+.icons-list__button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  width: 56px;
+  height: 56px;
+  margin-right: 1px;
+  transition: all 200ms linear; }
+  .icons-list__button:hover {
+    background-color: #f38181; }
+  .icons-list__button:hover .icons-list-svg--hover {
+    fill: #ffffff; }
+  .icons-list__button--color {
+    background-color: #fce38a; }
+
+.icons-list-svg--color {
+  fill: #f38181; }
+
+.icons-list-svg--transition {
+  transition: all 200ms linear; }
+
+.figcaption__title {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 0 10px 0; }
+  .figcaption__title--color {
+    color: #333333; }
+
+.figcaption__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin: 0; }
+  .figcaption__text--color {
+    color: #999999; }
+
+.picture-team-inner {
+  transition: all 200ms linear; }
+  .picture-team-inner:hover {
+    transform: translate(-10px, -10px); }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-top: 10px; }
+
+.footer_text {
+  display: inline-block;
+  margin: 0; }
+
+.footer_link--red {
+  color: #f38181; }
+
+.form__input {
+  width: 230px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  padding: 10px; }
+  .form__input--italics {
+    font-style: italic; }
+  .form__input::placeholder {
+    color: #cccccc; }
+  .form__input--tiny {
+    font-weight: 300; }
+  .form__input--color {
+    color: #333333; }
+
+.form__button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 200ms linear; }
+  .form__button--green {
+    background-color: #95e1d3; }
+  .form__button:last-child:hover {
+    background-color: #63ceba; }
+
+.focus:focus {
+  outline: 0; }
