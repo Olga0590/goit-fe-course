@@ -37,7 +37,7 @@ $primary-button-back-hover: #63ceba;
 	background-size: cover;
 	height: 1000px;
 	background-position: center;
-	background-image: linear-gradient(to bottom, rgba(232,130,131,0.9) 30%, rgba(254,209,54,0.8)), url(../img/background.png);
+	background-image: linear-gradient(to bottom, rgba(232,134,130,0.9) 30%, rgba(239,214,136,0.9)), url(../img/background.png); 
 }
 .header {
 	display: flex;
@@ -84,6 +84,7 @@ $primary-button-back-hover: #63ceba;
 .nav__link {
 	padding-bottom: 10px;
     font-weight: 500;
+    text-transform: uppercase;
     font-size: $primary-font-size;
     font-family: $primary-font;
     line-height: 25px;
@@ -107,6 +108,12 @@ $primary-button-back-hover: #63ceba;
 	margin: 0 auto;
 	text-align: center;
 }
+.nav__icon {
+	&--color {
+	fill: $primary-header-color;
+}
+}
+
 .section-main-title__sub {
 font-family: $primary-sub-font;
 margin-bottom: 40px;
@@ -129,10 +136,11 @@ display: block;
 	}
 }
 .section-main-title__link {
-	padding: 12px 30px;
+	padding: 8px 30px;
 	border: 3px solid #ffffff;
 	@extend %link-none;
 	text-transform: uppercase;
+	font-size: $primary-font-size;
 
 	&--wide {
 		font-weight: 700;
